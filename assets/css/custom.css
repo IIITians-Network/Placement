@@ -326,6 +326,7 @@ p::first-letter{
                     filter: opacity(0.8);
                     -webkit-filter:opacity(0.8);
                     background-position: center ;
+                    margin-top:0%;
                     
 }
 
