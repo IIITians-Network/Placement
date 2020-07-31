@@ -266,12 +266,6 @@ let secondBatch = new Chart(myChart1, {
 				},
 			],
 		},
-		title: {
-			display: true,
-			text: 'Placement Status for the year 2018-19',
-			fontSize: 25,
-			fontColor: '#000',
-		},
 		legend: {
 			position: 'bottom',
 			labels: {
@@ -329,12 +323,6 @@ let pie1 = new Chart(myChart2, {
 		// 		},
 		// 	],
 		// },
-		title: {
-			display: true,
-			text: 'Placement Status for the year 2018-19',
-			fontSize: 25,
-			fontColor: '#000',
-		},
 		legend: {
 			position: 'bottom',
 			labels: {
@@ -449,12 +437,6 @@ let firstBatch = new Chart(myChart3, {
 				},
 			],
 		},
-		title: {
-			display: true,
-			text: 'Placement Status for the year 2018-19',
-			fontSize: 25,
-			fontColor: '#000',
-		},
 		legend: {
 			position: 'bottom',
 			labels: {
@@ -512,12 +494,6 @@ let pie2 = new Chart(myChart4, {
 		// 		},
 		// 	],
 		// },
-		title: {
-			display: true,
-			text: 'Placement Status for the year 2018-19',
-			fontSize: 25,
-			fontColor: '#000',
-		},
 		legend: {
 			position: 'bottom',
 			labels: {
