@@ -128,21 +128,102 @@
 
     <main id="main">
     <!-- ======= Header and Basic info ======= -->
-    <h2 id="hd2" style="font-size: 50px;" data-aos-delay="100" data-aos="fade-up">
-    PLACEMENTS
-</h2>
-<hr data-aos="fade-up"style="height:2px;border-width:3;color:blue;background-color:blue; width:20%;text-align:center;margin-left:10">
-<div class="container" id="p1" data-aos="fade-up">
-    <div class="row">
-        <div class="col-xl-4">
-            <br>
-            <img src="img/index/pic1.jpeg" alt="graduationpic" id="img1">
-        </div>
-        <div class="col-xl-8" id="p1">  
-            The IIITs were set up mainly to nurture the IT skills to meet the need of growing technology sector. These institute offers undergraduate, graduate and PHD program in IT, electronics and communication and many more. As these institutions are new most of them don't have permanent campus. <br>Placements are an incredible myriad of options for skilled. Every year, an exceptional percentage of students get placed from many IIIT's. The salary ranges from mediocre to high depending on many traits of an individual's proficiency over a particular stream.
-        </div>      
-    </div>
-</div>
+    <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-166050406-1"></script>
+	<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-166050406-1');
+    </script>
+	
+    <!-- Title of your page: add the name of your IIIT-->
+    <title>About | Placement | IIITians Network</title>
+    <meta content="This is IIIT Placement page of the community IIITians Network" name="descriptison">		<!--You have to update the name of your IIIT in both these lines -->
+    <meta content="IIITians Network - Placement" name="keywords">
+
+    <!-- Favicons -->
+    <link href="img/logo/iiitian.png" rel="icon">
+    <link href="img/logo/iiitian.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600&family=Roboto&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+    <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+    <!-- Animation for text -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Anton'>
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+    <!-- Font awesome icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">	
+    
+    <!-- Slider CSS file-->
+    <link rel="stylesheet" href="assets\vendor\swiper\swiper.min.css">
+
+    <!-- Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/custom.css" rel="stylesheet">
+    <link href="assets/css/footer.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/heading.css" type="text/css">
+    
+    <!-- Carousel files -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    
+    <!--================================== STUDENT's LIFE CSS FILES =======================================================-->
+    <link rel="stylesheet" type="text/css" href="assets/css/studentsLife.css">
+    <!--================================== STUDENT's LIFE CSS FILE END =======================================================-->
+    
+    <!--==================================Counter Up files ====================-->
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"> -->
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+    integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+	
+    <!-- Chart JS files -->
+    <link href="assets/vendor/chart.js/Chart.css" rel="stylesheet">
+    <link href="assets/vendor/chart.js/Chart.min.css" rel="stylesheet">
+	<script src="assets/vendor/chart.js/Chart.bundle.js" type="text/javascript"></script>
+	<script src="assets/vendor/chart.js/Chart.bundle.min.js" type="text/javascript"></script>
+	<script src="assets/vendor/chart.js/Chart.js" type="text/javascript"></script>
+	<script src="assets/vendor/chart.js/Chart.min.js" type="text/javascript"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.1.6/Chart.bundle.min.js"></script>
+
+    <!--================= Loader Part start ===============-->
+	    <style>
+        .no-js #loader { display: none;  }
+        .js #loader { display: block; position: absolute; left: 100px; top: 0; }
+        .se-pre-con {
+            position: fixed;
+            left: 0px;
+            top: 0px;
+            width: 100%;
+            height: 100%;
+            z-index: 9999;
+            background: url("./img/loader/loader.gif") center no-repeat #fff;
+        }
+    </style>
+    <!-- =================== Loader part ended=================== -->
+    
+</head>
+
     <!--End Header and Basic info -->
     <!-- ======= Carousal ======= -->
     <h2 id="hd2" data-aos-delay="100" data-aos="fade-up" style="padding-top: 50px;">LIST OF ALL IIITs</h2>
