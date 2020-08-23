@@ -1,0 +1,12 @@
+title: IIIT Placement 
+email: 
+description: IIIT Placement
+baseurl: ""
+url: ""
+twitter_username: 
+github_username: 
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
