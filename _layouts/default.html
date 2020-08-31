@@ -1,0 +1,45 @@
+{% include header.html %}
+<body>
+	
+    <!-- ======= Navbar ======= -->
+    {% include navbar.html%}
+    <!-- End Navbar -->
+
+
+    {{content}}
+
+
+   </main>
+
+    <!-- ======= Footer ======= -->
+    
+    <!-- No need to change anything in footer area -->
+    {% include footer.html%}
+   <!-- End Footer -->
+
+
+    <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script src="assets/vendor/swiper/swiper.min.js"></script>
+    <script>
+        jQuery(document).ready(function( $ )
+        {
+        $('.counter').counterUp({
+            delay: 10,
+            time: 1000
+        });
+    });
+    </script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+	
+	<!-- Custom JS files -->
+    <script src="assets/js/custom.js"></script>
+    
+	
+</body>
+
+</html>
