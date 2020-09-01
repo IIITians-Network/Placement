@@ -268,12 +268,11 @@
   
   
   .p{
-      /*border: 1px solid green;*/
-     
-      font-family: 'Old Standard TT', serif;
-      font-size: 17px;
+      /*border: 1px solid green;*/  
+      font-size: 20px;
       margin-left: 5%;
       margin-right: 3%;
+      font-family:  "rale-way";
   } 
   .center{
     
