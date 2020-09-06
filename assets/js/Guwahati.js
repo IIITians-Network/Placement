@@ -13,7 +13,7 @@ let secondBatch = new Chart(myChart1, {
 
 		datasets: [
 			{
-				label: 'Total Students registered',
+				label: 'Students registered',
 				data: [27, 32, 59],
 				//backgroundColor:'green',
 				backgroundColor: '#00CED1',
@@ -23,7 +23,7 @@ let secondBatch = new Chart(myChart1, {
 				hoverBorderColor: '#000',
 			},
 			{
-				label: 'Total job offered',
+				label: 'Jobs offered',
 				data: [11, 49, 60],
 				backgroundColor: '#0000CD',
 				boderWidth: 4,
@@ -42,7 +42,7 @@ let secondBatch = new Chart(myChart1, {
 				hoverBorderColor: '#000',
 			},
 			{
-				label: 'Students going for higher studies',
+				label: 'Going for higher studies',
 				data: [16, 4, 20],
 				//backgroundColor:'green',
 				backgroundColor: '#8B008B',
@@ -53,7 +53,7 @@ let secondBatch = new Chart(myChart1, {
 			},
 
 			{
-				label: 'Students starting their own company',
+				label: 'Starting their own company',
 				data: [1, 0, 1],
 				//backgroundColor:'green',
 				backgroundColor: '#00BFFF',
@@ -63,7 +63,7 @@ let secondBatch = new Chart(myChart1, {
 				hoverBorderColor: '#000',
 			},
 			{
-				label: 'Average salary in LPA',
+				label: 'Average salary (LPA)',
 				data: [5.19, 12.75, 10.1],
 				//backgroundColor:'green',
 				backgroundColor: '#1E90FF',
@@ -73,7 +73,7 @@ let secondBatch = new Chart(myChart1, {
 				hoverBorderColor: '#000',
 			},
 			{
-				label: 'Highest Salary in LPA',
+				label: 'Highest Salary (LPA)',
 				data: [7, 56, 56],
 				//backgroundColor:'green',
 				backgroundColor: '#4B0082',
@@ -183,7 +183,7 @@ let firstBatch = new Chart(myChart3, {
 
 		datasets: [
 			{
-				label: 'Total Students registered',
+				label: 'Students registered',
 				data: [26, 32, 58],
 				//backgroundColor:'green',
 				backgroundColor: '#00CED1',
@@ -193,7 +193,7 @@ let firstBatch = new Chart(myChart3, {
 				hoverBorderColor: '#000',
 			},
 			{
-				label: 'Total job offered',
+				label: 'Jobs offered',
 				data: [13, 30, 43],
 				backgroundColor: '#0000CD',
 				boderWidth: 4,
@@ -212,7 +212,7 @@ let firstBatch = new Chart(myChart3, {
 				hoverBorderColor: '#000',
 			},
 			{
-				label: 'Students going for higher studies',
+				label: ' Going for higher studies',
 				data: [5, 2, 7],
 				//backgroundColor:'green',
 				backgroundColor: '#8B008B',
@@ -223,7 +223,7 @@ let firstBatch = new Chart(myChart3, {
 			},
 
 			{
-				label: 'Students starting their own company',
+				label: ' Starting their own company',
 				data: [1, 1, 2],
 				//backgroundColor:'green',
 				backgroundColor: '#00BFFF',
@@ -234,7 +234,7 @@ let firstBatch = new Chart(myChart3, {
 			},
 
 			{
-				label: 'Average salary in LPA',
+				label: 'Average salary (LPA)',
 				data: [6.56, 6.7, 6.68],
 				//backgroundColor:'green',
 				backgroundColor: '#1E90FF',
@@ -244,7 +244,7 @@ let firstBatch = new Chart(myChart3, {
 				hoverBorderColor: '#000',
 			},
 			{
-				label: 'Highest Salary in LPA',
+				label: 'Highest Salary (LPA) ',
 				data: [15, 17, 17],
 				//backgroundColor:'green',
 				backgroundColor: '#4B0082',
