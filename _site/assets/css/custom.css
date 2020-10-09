@@ -268,12 +268,11 @@
   
   
   .p{
-      /*border: 1px solid green;*/
-     
-      font-family: 'Old Standard TT', serif;
-      font-size: 17px;
+      /*border: 1px solid green;*/  
+      font-size: 18px;
       margin-left: 5%;
       margin-right: 3%;
+      font-family:  "rale-way";
   } 
   .center{
     
@@ -283,7 +282,7 @@
   }
   
   .jumbotron{
-    background-image:url('https://img.collegepravesh.com/2018/12/IIIT-Guwahati.jpg');
+    background-image:url('img/campus_images/{{page.title}}.webp');
     background-position: center ;
     background-repeat: no-repeat;
     background-size: cover;
@@ -298,7 +297,6 @@
     float:left;
     margin-top: 5%;
   }
-  
   #head1{
     margin-top: 10vh;
     color:#f5f5f5; 
@@ -306,13 +304,11 @@
   }
   
   .subh{
-    font-size: 36px;
-    padding-left: 26px;
-    padding-top: 24px;
-    padding-bottom: 10px;
+    font-size: 96px;
+    padding: 2px 0px 10px 26px;
     text-shadow: 2px 2px 4px #c0b6b6;
     color: black;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'DM Sans', sans-serif;
     margin-left: 2%;
   }
   
@@ -321,12 +317,12 @@
     color:#f5f5f5;
   }
   
-  
   hr.new1{
     border: 1px solid rgb(255, 0, 0);
-    width:60%;
-    margin-left:35px;
-    
+    width:40%;
+  }
+  .graphs{
+    padding-bottom: 10px;
   }
   /*
   .jumbotron {
@@ -338,7 +334,7 @@
    /* justify-content: center;*/
   
   .bg{
-    background-color: rgb(195, 252, 233);
+    background-color:#E6E6E6;
     box-shadow: 3px 3px #a7a4a4;
     position: relative;
     margin: auto;
@@ -373,99 +369,5 @@
       font-size: 25px;
     }
   }
-  /*
-  .st{
-   
-      width: 100%; height: 2px;
-      border-style: solid;
-      border-color: white;
-      background-color: brown;
   
-  }
-  /* #icong{
-    display: inline-block;
-    margin-left: 25px;
-    font-size: large;
-    position:relative; 
-  } 
-   */
-  /*css file for IIIT sonepat*/
-  /*#header{
-      background-color:  rgba(213, 213, 213, 0.2);
-      background-repeat: no-repeat;
-      background-size: cover;
-  }
-  body{
-      background-color: rgba(213, 213, 213, 0.5);
-  }
-  #jumbobody{
-      background-color:rgb(75, 78, 78);
-      font-family: 'Raleway';
-      color: thistle;
-      padding: 2%;
-      
-  }
-  #heading{
-      color:black;
-      font-family: 'Bree Serif';
-      font-weight: 200;
-      text-decoration: underline;
-      
-  }
-  .subheading{
-      margin-left:5%;
-      margin-top: 5%;
-  }
-  .para{
-      margin-left: 5%;
-      font-size: 18px;
-      font-family: 'Jaldi';
-  }
-  .packagechart{
-      width: 60%;
-      margin: auto;
-  }
-  .newheading{
-      color:black;
-      font-family: 'Bree Serif';
-      font-weight: 200;
-      text-decoration: underline;
-      text-align: center;
-      margin-top: 6%;
-  }
-  .para2{
-      text-align: center;
-      font-size: 18px;
-      font-family: 'Jaldi';
-  
-  
-  }
-  .growthchart{
-      width: 60%;
-      margin: auto;
-  }
-  #icon{
-      display: inline;
-      font-size: 40px;
-      line-height: 50px;
-      width: 50px;
-      height: 50px;
-      text-align: center;
-      vertical-align: bottom;
-      margin-left: 48%;
-  }
-  #heading1{
-      margin-top: 5%;
-      color:black;
-      font-family: 'Bree Serif';
-      font-weight: 200;
-      text-decoration: underline;
-      text-align: center;
-  
-      
-  }
-  #doughnutchart{
-      margin: auto;
-      width: 50%;
-  }
   
