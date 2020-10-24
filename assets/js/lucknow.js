@@ -10,12 +10,12 @@ Chart.defaults.global.legend.display = false;
 let secondBatch = new Chart(myChart1, {
 	type: 'bar',
 	data: {
-		labels: ['Students Eligible(%)','Highest Package(LPA)','Lowest Package(LPA)','Average Package(LPA)'],
+		labels: ['Highest Package(LPA)','Average Package(LPA)','Minimum Package(LPA)','Percentage Placed(%)',],
 
 		datasets: [
 			{
 				
-                data : [94,11,5,7],
+                data : [43,18.42,10,100],
 				//backgroundColor:'green',
 				backgroundColor: [
 					'#03254c',
@@ -70,12 +70,12 @@ Chart.defaults.global.legend.display = false;
 let firstBatch = new Chart(myChart3, {
 	type: 'bar',
 	data: {
-		labels: ['Highest Packagw(LPA)','Average Package(LPA)','Minimum Package(LPA)','Percentage Placed',],
+		labels: ['Highest Package(LPA)','Average Package(LPA)','Minimum Package(LPA)','Percentage Placed(%)',],
 
 		datasets: [
 			{
 				
-				data: [43, 18.42, 10,100],
+				data: [28, 11.37, 5,94],
 				//backgroundColor:'green',
 				backgroundColor: [
                     '#03254c',
